@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio com temporizador</title>
+    <link rel="stylesheet" href="RelogioTemp.css">
+</head>
+<body>
+    <div class="Main">
+    <div class="main Relogio">
+        <div class="Description">Relógio Digital</div>
+        <button class="time hora">00</button>
+        <div class="split">:</div>
+        <button class="time minuto">00</button>
+        <div class="split">:</div>
+        <button class="time segundo">00</button>
+    </div>
+    <div class="main Temporizador">
+        <div class="Description">Temporizador</div>
+        <div class="time ShowHora">00</div>
+        <div class="split">:</div>
+        <div class="time ShowMin">00</div>
+        <div class="split">:</div>
+        <div class="time ShowSeg">00</div>
+
+        <button class="on_off TempPower">Iniciar</button>
+        <button class="reset TempReset">Repor</button>
+        <div class="ajustarTemp">
+            <div class="DescriAjustar">Ajustar</div>
+            <input class="InAjuste inHora" type="text" placeholder="Horas" maxlength="2">
+            <input class="InAjuste inMin" type="text" placeholder="Minutos" maxlength="2">
+            <input class="InAjuste inSeg" type="text" placeholder="Segundos" maxlength="2">
+            <button class="btnconcluido">Concluído</button>
+        </div>
+    </div>
+    <div class="main Cronometro">
+        <div class="Description">Cronómetro</div>
+        <div class="time croMinuto">00</div>
+        <div class="split">:</div>
+        <div class="time CroSegundo">00</div>
+        <div class="split">.</div>
+        <div class="time milisegundo">00</div>
+        <button class="on_off cronPower">Iniciar</button>
+        <button class="reset  CromReset">Reiniciar</button>
+    </div>
+    </div>
+    <div class="Options">
+        <button class="opt opt1">Relógio</button>
+        <button class="opt opt2">Temporizador</button>
+        <button class="opt opt3">Cronómetro</button>
+    </div>
+    <script src="RelogioTemp.js"></script>
+</body>
+</html>

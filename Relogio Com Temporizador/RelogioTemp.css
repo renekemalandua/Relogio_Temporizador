@@ -1,0 +1,175 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: azure;
+}
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 700px;
+    height: 400px;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: azure;
+    box-shadow: 0px 0px 5px 0.5px;
+}
+.main{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.Relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.time{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    background-color: azure;
+    color: goldenrod;
+    border-color: gold;
+}
+.milisegundo{
+    font-size: 100px;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: -100px;
+}
+.split{
+    width: 20px;
+    height: 250px;
+    margin: 5px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+}
+.Temporizador{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.Cronometro{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.on_off{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-bottom: -300px;
+    margin-left: -500px;
+
+    color: goldenrod;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0.5px;
+    font-size: large;
+}
+.reset{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    margin-right: -500px;
+    margin-bottom: -300px;
+
+    color: goldenrod;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0.5px;
+    font-size: large;
+}
+.Options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    width: 700px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: azure;
+    box-shadow: 0px 0px 5px 0.5px;
+}
+.opt{
+    background-color:  azure;
+    height: 70px;
+    width: 245px;
+    position: absolute;
+    border-top: none;
+    font-size: x-large;
+    color: goldenrod;
+    border-color: gold;
+
+}
+.opt:active{
+   border-bottom-width: 5px;
+}
+.opt1{
+    background-color: gold;
+    margin-left: -455px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-left: none;
+}
+.opt3{
+    margin-right: -455px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+.Description{
+    position: absolute;
+    margin-top: -340px;
+    font-size: xx-large;
+    color: goldenrod;
+}
+.ajustarTemp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 0px 0px 5px 0.5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 217, 0, 0.5);
+    color: black;
+    position: absolute;
+    height: 150px;
+    width: 300px;
+}
+.InAjuste{
+    width: 70px;
+    margin: 10px;
+    text-align: center;
+}
+.btnconcluido{
+    position: absolute;
+    margin-bottom: -100px;
+    color:black;
+    border: none;
+    background-color: gold;
+    box-shadow: 0px 0px 5px 0.5px;
+    font-size: medium;
+}
+.DescriAjustar{
+    position: absolute;
+    margin-top: -100px;
+    font-size: xx-large;
+}
